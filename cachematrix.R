@@ -1,5 +1,4 @@
 # Step 1: Create a function to generate a special "vector" object with caching ability
-
 makeCacheVector <- function(x = numeric()) {
   # Initialize a NULL variable to store the cached mean
   cached_mean <- NULL
